@@ -45,3 +45,17 @@ print(course.title())
 print("programming" in course)
 print(course.find("pro"))
 print(course.replace("pr", "_"))
+
+# ternary operator
+age = 17
+if age > 18 :
+    msg = "greater than 18"
+else:
+    msg = "less than 18"
+
+msg1 = "greater than 18 " if age>18  else "less than 18"
+
+
+print(msg)
+print(msg1)
+print(msg2)
